@@ -1,0 +1,44 @@
+.form-control, .form-select
+{
+    border-radius: 0px !important;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    background-color: black;
+    color: white;
+}
+
+.form-control:focus
+{
+    border-color: #007bff;
+    box-shadow: none;
+    background-color: black;
+    color: white;
+}
+
+.btn
+{
+    border-radius: 0px !important;
+    color: white;
+}
+
+
+/* Custom background color for Awesomplete dropdown */
+.awesomplete {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+}
+
+.awesomplete ul {
+    background-color: #333; /* Dark background for options */
+    color: #fff; /* White text */
+}
+
+.awesomplete ul li {
+    background-color: #333; /* Dark background for options */
+    color: #fff; /* White text */
+}
+
+.awesomplete ul li:hover {
+    background-color: #555; /* Slightly lighter background for highlighted option */
+    color: #fff; /* White text */
+}
